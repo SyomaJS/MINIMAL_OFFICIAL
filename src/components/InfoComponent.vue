@@ -90,6 +90,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: flex-start;
     .info_component_content_box {
       width: 30%;
       display: flex;
