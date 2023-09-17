@@ -149,7 +149,8 @@
   .footer_wrap form {
     input,
     textarea {
-      height: 25px;
+      font-size: 16px !important;
+      height: 16px !important;
       flex-shrink: 0;
       border: none;
       width: 70% !important;
@@ -157,7 +158,11 @@
       padding: 18px 31px;
     }
     textarea {
-      height: 90px !important;
+      height: 80px !important;
+
+      button {
+        width: 100px;
+      }
     }
 
     .input_odd {
@@ -167,6 +172,27 @@
 
   .last_one {
     font-size: 12px !important;
+  }
+
+  .footer_component {
+    padding: 80px 0 70px !important;
+  }
+
+  button {
+    margin: 25px 0 40px 0;
+    width: 150px !important;
+    height: 35px;
+    font-size: 16px !important;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #fff;
+    font-family: Vollkorn;
+    font-size: 13px !important;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
   }
 }
 </style>
